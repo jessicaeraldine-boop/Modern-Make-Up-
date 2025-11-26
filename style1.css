@@ -1,0 +1,70 @@
+/* Warna dasar */
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #d4af37;
+}
+
+.navbar-brand {
+    color: #d4af37 !important;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #333 !important;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: #d4af37 !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url(https://images.pexels.com/photos/3762877/pexels-photo-3762877.jpeg) center/cover no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* Title Emas */
+.section-title {
+    color: #d4af37;
+    font-weight: bold;
+    border-left: 5px solid #d4af37;
+    padding-left: 10px;
+}
+
+/* Card Produk */
+.card {
+    border: 1px solid #d4af37;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.card-title {
+    color: #d4af37;
+    font-weight: bold;
+}
+
+/* Footer (jika ingin digunakan) */
+.footer {
+    background: #ffffff;
+    border-top: 2px solid #d4af37;
+    padding: 20px;
+    text-align: center;
+}
